@@ -37,8 +37,8 @@ Previously: Data Analytics Intern @ **Reliance Industries** · Event Ops Supervi
 **[JD Lens](https://github.com/Dhyey2901/jd-lens)** — NLP Role-Fit Scorer · [Live demo ↗](https://jd-lens.streamlit.app)
 > 3-tier hybrid scoring: semantic embeddings (30%) + TF-IDF (30%) + skill matching with alias normalisation (40%). Shipped with REST API, GitHub Actions CI/CD (pytest + ruff, Python 3.11/3.12), and Streamlit Cloud deployment.
 
-**[F1 Grid Analysis](https://github.com/Dhyey2901/f1-dashboard)** — Analytics Dashboard · [Live demo ↗](https://dhyey.shinyapps.io/f1-dashboard)
-> 8-tab interactive dashboard across 70+ years of F1 data (1950–2023). Logistic regression model finding a statistically significant 15–18% drop in podium odds per grid position back (p < 0.001). Built for non-technical audiences in R Shiny + Plotly.
+**[F1 Grid Analysis](https://github.com/Dhyey2901/f1_dashboard)** — Analytics Dashboard · [Live demo ↗](https://dhyey2901.shinyapps.io/f1_dashboard)
+> 9-tab interactive dashboard across 70+ years of F1 data (1950–2023). Logistic regression model confirming a 15–18% drop in podium odds per grid position back (p < 0.001). K-Means clustering (k=4) of drivers by pole rate, conversion rate, and podium rate — revealing four reproducible performance archetypes. Built for non-technical audiences in R Shiny + Plotly.
 
 ---
 
