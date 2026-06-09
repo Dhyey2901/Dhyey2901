@@ -31,8 +31,8 @@ Previously: Data Analytics Intern @ **Reliance Industries** · Event Ops Supervi
 **[Prism](https://github.com/Dhyey2901/prism)** — AI-powered data reporting platform · [Live ↗](https://prismanalytics.app)
 > Upload a spreadsheet, get a streamed AI analysis with interactive charts, a PDF report with embedded chart images, and a follow-up chat grounded in your data. Semantic search over saved analyses via pgvector + Gemini embeddings. Built with Next.js 16, Gemini 2.5 Flash, Neon Postgres, and Clerk. Privacy-first — raw data never leaves the browser.
 
-**[Diabetes Clinical Q&A](https://github.com/Dhyey2901/diabetes-rag)** — ADA 2025 RAG System
-> End-to-end RAG over 19 chapters of ADA Standards of Care. Hybrid BM25 + MiniLM-L6-v2 retrieval with RRF fusion and MMR diversification. Abstention-first safety design — refuses to answer rather than hallucinate. **86.7% accuracy** on an 80-question gold eval set.
+**[Diabetes Clinical Q&A](https://github.com/Dhyey2901/diabetes-rag)** — ADA 2025 RAG System · [Live ↗](https://diabetes-rag.onrender.com)
+> End-to-end RAG over 19 chapters of ADA Standards of Care. Hybrid BM25 + fastembed dense retrieval with RRF fusion and MMR diversification. Abstention-first safety design — refuses to answer rather than hallucinate. **86.7% accuracy** on an 84-question gold eval set.
 
 **[JD Lens](https://github.com/Dhyey2901/jd-lens)** — NLP Role-Fit Scorer · [Live demo ↗](https://jd-lens-ahnqxbthuw8t3tdr4mnuaw.streamlit.app/)
 > 3-tier hybrid JD-match score (semantic 30% + TF-IDF bigram 30% + skill match 40%) plus a 7-dimension **Hiring Signal Score** with role-adaptive weights and a four-quadrant candidate verdict. Section-aware JD parsing, bullet-to-requirement alignment, keyword gap analysis, and unknown tool detection via context phrases. 126 tests · eval harness with 5 gold pairs · REST API · GitHub Actions CI/CD (Python 3.11/3.12).
