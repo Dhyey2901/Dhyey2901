@@ -9,7 +9,7 @@
 
 ---
 
-MSc Data Science @ RMIT (2026). I build AI systems that go beyond notebooks — RAG pipelines with real safety design, NLP tools with CI/CD, dashboards built for non-technical audiences. Currently building **[Prism](https://github.com/Dhyey2901/prism)**, an AI-powered data reporting platform.
+MSc Data Science @ RMIT (2026). I build AI systems that go beyond notebooks — RAG pipelines with real safety design, NLP tools with CI/CD, full-stack AI products built for non-technical audiences. Latest: shipped **[Prism](https://github.com/Dhyey2901/prism)** (v1.9.0 · live at [prismanalytics.app](https://prismanalytics.app)).
 
 Previously: Data Analytics Intern @ **Reliance Industries** · Event Ops Supervisor @ **GEMA Group** (Australian Open, Formula 1 GP)
 
@@ -21,15 +21,15 @@ Previously: Data Analytics Intern @ **Reliance Industries** · Event Ops Supervi
 |---|---|
 | **AI / ML** | `Python` `RAG` `NLP` `LLMs` `Scikit-Learn` `HuggingFace` `BM25` `Vector Search` |
 | **Data** | `SQL` `PostgreSQL` `Pandas` `R` `Power BI` `Plotly` `R Shiny` |
-| **Cloud & Infra** | `AWS` `Supabase` `Docker` `GitHub Actions` `Flask` `Streamlit` |
-| **Web** | `Next.js 16` `TypeScript` `Tailwind CSS` `Gemini API` `pgvector` |
+| **Cloud & Infra** | `Vercel` `Neon` `Clerk` `Docker` `GitHub Actions` `Streamlit` |
+| **Web** | `Next.js 16` `TypeScript` `Tailwind CSS` `Gemini API` `pgvector` `Upstash Redis` `Vitest` |
 
 ---
 
 ### Featured projects
 
-**[Prism](https://github.com/Dhyey2901/prism)** — AI-powered data reporting platform · [Live ↗](https://prismanalytics.app)
-> Upload a spreadsheet, get a streamed AI analysis with interactive charts, a PDF report with embedded chart images, and a follow-up chat grounded in your data. Semantic search over saved analyses via pgvector + Gemini embeddings. Built with Next.js 16, Gemini 2.5 Flash, Neon Postgres, and Clerk. Privacy-first — raw data never leaves the browser.
+**[Prism](https://github.com/Dhyey2901/prism)** — AI-powered data reporting platform · v1.9.0 · [Live ↗](https://prismanalytics.app)
+> Upload a spreadsheet, get a streamed AI analysis with interactive charts (bar, line, area, pie, scatter), a PDF report with embedded chart captures, and a follow-up chat grounded in your data. Semantic search over saved analyses via pgvector + Gemini embeddings. Distributed rate limiting via Upstash Redis. 58 unit tests across 5 files. Built with Next.js 16, Gemini 2.5 Flash, Neon Postgres, Clerk, and Vercel. Privacy-first — raw data never leaves the browser.
 
 **[Diabetes Clinical Q&A](https://github.com/Dhyey2901/diabetes-rag)** — ADA 2025 RAG System · [Live ↗](https://diabetes-rag.onrender.com)
 > End-to-end RAG over 19 chapters of ADA Standards of Care. Hybrid BM25 + fastembed dense retrieval with RRF fusion and MMR diversification. Abstention-first safety design — refuses to answer rather than hallucinate. **86.7% accuracy** on an 84-question gold eval set.
