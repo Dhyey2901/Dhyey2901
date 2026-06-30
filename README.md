@@ -21,8 +21,8 @@ Previously: Data Analytics Intern @ **Reliance Industries** · Event Ops Supervi
 |---|---|
 | **AI / ML** | `Python` `RAG` `NLP` `LLMs` `Scikit-Learn` `HuggingFace` `BM25` `Vector Search` |
 | **Data** | `SQL` `PostgreSQL` `Pandas` `R` `Power BI` `Plotly` `R Shiny` |
-| **Cloud & Infra** | `Vercel` `Neon` `Clerk` `Docker` `GitHub Actions` `Streamlit` |
-| **Web** | `Next.js 16` `TypeScript` `Tailwind CSS` `Gemini API` `pgvector` `Upstash Redis` `Vitest` |
+| **Cloud & Infra** | `Vercel` `Neon` `Clerk` `Upstash Redis` `Docker` `GitHub Actions` `Render` `Streamlit` |
+| **Web** | `Next.js 16` `TypeScript` `Tailwind CSS` `Recharts` `Gemini API` `pgvector` `Vitest` |
 
 ---
 
